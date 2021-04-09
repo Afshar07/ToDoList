@@ -1,0 +1,17 @@
+html{
+    width: 100% !important;
+    padding: 0;
+    margin: 0;
+}
+.todo-input:focus{
+    outline: none;
+}
+.Tasks{
+    list-style: none;
+}
+.task-item{
+    color: red;
+}
+.done{
+    text-decoration: line-through;
+}

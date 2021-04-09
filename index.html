@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo</title>
+  </head>
+  <body class="w-100">
+    <div class="container-fluid mt-4 d-flex flex-column">
+      <h2 class="mb-5 ms-5">Task List</h2>
+      <input
+        type="text"
+        class="col-11 align-self-center border-0 border-bottom mb-4 todo-input"
+        placeholder="New Task"
+      />
+      <button
+        class="col-1 bg-success text-white border-0 rounded-3 ms-5 mb-5 submit-btn"
+      >
+        Add Task
+      </button>
+      <hr class="w-100" />
+      <h2 class="ms-5 mb-5">Tasks</h2>
+      <ul class="Tasks">
+      </ul>
+      <input
+        type="text"
+        class="ms-5 col-11 border-0 border-bottom mb-5"
+        placeholder="Filter Tasks"
+      />
+      <button class="col-1 bg-dark text-white border-0 rounded-3 ms-5 clearbtn">
+        CLEAR TASKS
+      </button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
